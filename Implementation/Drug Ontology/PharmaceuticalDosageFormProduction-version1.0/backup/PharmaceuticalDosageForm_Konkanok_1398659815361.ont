@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="PharmaceuticalDosageForm.ont" ont_id="1398659815361ont" author="Konkanok" ontname="PharmaceuticalDosageForm" update="1398659815361" project="PharmaceuticalDosageForm" comment="">
+<FILENAME_ONT>PharmaceuticalDosageForm.ont</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="2064" h="1986" x="364" y="1" />
+<CONCEPT id="1398659815361_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="486" y="92"/>
+<PART_TREE>close</PART_TREE>
+</CONCEPT>
+<CONCEPT id="1398659815361_n1" >
+<LABEL>PharmaceuticalDosageForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="540" y="272"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n2" >
+<LABEL>SolidDosageForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="399" y="336"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n3" >
+<LABEL>LiquidDosageForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="754" y="335"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n4" >
+<LABEL>SemiSolidDasageForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="337"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n5" >
+<LABEL>Tablet</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="273" y="392"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n6" >
+<LABEL>Capsule</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="360" y="391"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n7" >
+<LABEL>Powder</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="439" y="401"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n8" >
+<LABEL>Granule</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="516" y="428"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n9" >
+<LABEL>Bolus</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="342" y="459"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n10" >
+<LABEL>Solution</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="728" y="397"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n11" >
+<LABEL>Process</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="108" y="632"/>
+<PART_TREE>close</PART_TREE>
+</CONCEPT>
+<CONCEPT id="1398659815361_n12" >
+<LABEL>UnitOperation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="537" y="635"/>
+</CONCEPT>
+<CONCEPT id="1398659815361_n13" >
+<LABEL>Compound</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="66" y="115"/>
+</CONCEPT>
+<CONCEPT id="1398659815361_n14" >
+<LABEL>CompundFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="258" y="122"/>
+</CONCEPT>
+<CONCEPT id="1398659815361_n15" >
+<LABEL>Elixir</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="809" y="403"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n16" >
+<LABEL>Suspension</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="881" y="396"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n17" >
+<LABEL>Emulsion</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="951" y="360"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<ISA id="1398659815361_isa18" parent="PharmaceuticalDosageForm" child="SolidDosageForm" />
+<ISA id="1398659815361_isa19" parent="PharmaceuticalDosageForm" child="SemiSolidDasageForm" />
+<ISA id="1398659815361_isa20" parent="PharmaceuticalDosageForm" child="LiquidDosageForm" />
+<ISA id="1398659815361_isa21" parent="SolidDosageForm" child="Tablet" />
+<ISA id="1398659815361_isa22" parent="SolidDosageForm" child="Capsule" />
+<ISA id="1398659815361_isa23" parent="SolidDosageForm" child="Powder" />
+<ISA id="1398659815361_isa24" parent="SolidDosageForm" child="Granule" />
+<ISA id="1398659815361_isa25" parent="SolidDosageForm" child="Bolus" />
+<ISA id="1398659815361_isa26" parent="LiquidDosageForm" child="Solution" />
+<ISA id="1398659815361_isa27" parent="LiquidDosageForm" child="Elixir" />
+<ISA id="1398659815361_isa28" parent="LiquidDosageForm" child="Suspension" />
+<ISA id="1398659815361_isa29" parent="LiquidDosageForm" child="Emulsion" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="2064" h="2017" />
+</R_CONCEPTS>
+<OTHER_ONTS>
+<W_DEPENDENCY>
+</W_DEPENDENCY>
+<R_DEPENDENCY>
+</R_DEPENDENCY>
+</OTHER_ONTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.3322834645669" h="841.9181102362205" iw="451.3322834645669" ih="697.9181102362205" ix="72.0" iy="72.0" />
+<PRINTER_SETTINGS orientation="1" printername="HP LaserJet P1505" />
+</PRINTER>
+</OE_FILE>

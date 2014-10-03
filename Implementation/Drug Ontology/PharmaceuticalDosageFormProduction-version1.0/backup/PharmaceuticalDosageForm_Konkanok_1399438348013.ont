@@ -1,0 +1,3708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="PharmaceuticalDosageForm.ont" ont_id="1398676003458ont" author="Konkanok" ontname="PharmaceuticalDosageForm" update="1399438348013" project="PharmaceuticalDosageFormProduction" comment="">
+<FILENAME_ONT>PharmaceuticalDosageForm.ont</FILENAME_ONT>
+<W_CONCEPTS hasAny="false">
+<CANVAS_SIZE w="4836" h="4035" x="1121" y="1635" />
+<CONCEPT id="1398659815361_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="42" y="2"/>
+<SLOTS>
+<SLOT id="1398761717510_s1" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="NameProperty"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n1" >
+<LABEL>PharmaceuticalDosageForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="594" y="426"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n2" >
+<LABEL>SolidDosageForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="442" y="568"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n3" >
+<LABEL>LiquidDosageForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="830" y="566"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n4" >
+<LABEL>SemiSolidDasageForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="644" y="625"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n5" >
+<LABEL>Tablet</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="414" y="510"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n6" >
+<LABEL>Capsule</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="376" y="568"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1398659815361_n7" >
+<LABEL>Powder</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="489" y="660"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n8" >
+<LABEL>Granule</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="532" y="629"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n9" >
+<LABEL>Bolus</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="565" y="590"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n10" >
+<LABEL>Solution</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="846" y="666"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n11" >
+<LABEL>Process</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1472" y="752"/>
+<SLOTS>
+<SLOT id="1398925071993_s13" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="UnitOperationProperty"  class_constraint="UnitOperation"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="UnitOperation" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n12" >
+<LABEL>UnitOperation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1385" y="372"/>
+<SLOTS>
+<SLOT id="1398934689636_s15" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="SubstanceProperty"  class_constraint="Substance"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398934689636_s16" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="MethodProperty"  class_constraint="Method"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Method" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n13" >
+<LABEL>Substance</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="300"/>
+<SLOTS>
+<SLOT id="1398664763920_s14" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role=" waterSolubilityProperty"  class_constraint="Solubility"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Solubility" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398664763920_s16" 
+ type="NW"  label="slot3"  kind="p/o"  num="0.."  role="StabilityProperty"  class_constraint="Stability"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Stability" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398664763920_s17" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="DissolutionProperty"  class_constraint="pKa"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="pKa" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398664763920_s18" 
+ type="NW"  label="slot5"  kind="p/o"  num="1"  role="PartitionCoefficientProperty"  class_constraint="PartitionCoefficient"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="PartitionCoefficient" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398664763920_s19" 
+ type="NW"  label="slot6"  kind="p/o"  num="1"  role="PhysicalFormProperty"  class_constraint="CrystallineMaterials"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="CrystallineMaterials" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398664763920_s20" 
+ type="NW"  label="slot7"  kind="p/o"  num="1"  role="HygroscopicityProperty"  class_constraint="Hygroscopicity"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Hygroscopicity" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398664763920_s21" 
+ type="NW"  label="slot8"  kind="p/o"  num="1"  role="ParticleProperty"  class_constraint="ParticleSize"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ParticleSize" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398743383153_s23" 
+ type="NW"  label="slot10"  kind="p/o"  num="1"  role="PhysicalFormProperty"  class_constraint="AmorphousMaterials"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="AmorphousMaterials" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398760368831_s23" 
+ type="NW"  label="slot11"  kind="a/o"  num="1"  role="AlcoholSolubilityProperty"  class_constraint="Solubility"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Solubility" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398910962107_s24" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="FlowabilityProperty"  class_constraint="Flowability"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Flowability" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398910962107_s25" 
+ type="NW"  label="slot9"  kind="p/o"  num="1"  role="MicroscopicProperty"  class_constraint="Microscopic"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Microscopic" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398910962107_s26" 
+ type="NW"  label="slot12"  kind="p/o"  num="1"  role="PowderDensityProperty"  class_constraint="Density"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Density" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n14" >
+<LABEL>CompoundFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="414" y="102"/>
+<SLOTS>
+<SLOT id="1399431417228_s31" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="maxConcentrationProperty"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399431417228_s32" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="minCOncentrationProperty"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n15" >
+<LABEL>Elixir</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="814" y="634"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n16" >
+<LABEL>Suspension</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="900" y="506"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398659815361_n17" >
+<LABEL>LiquidEmulsion</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1022" y="614"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398664763920_n27" >
+<LABEL>Ointment</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="702" y="696"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398664763920_n38" >
+<LABEL>Paste</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="800" y="720"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n39" >
+<LABEL>Solubility</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="100" y="960"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s32" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="MaximalSolubility"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s33" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MinimalSolubility"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n40" >
+<LABEL>VerySoluble</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="12" y="977"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s35" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximalSolubility"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s36" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalSolubility"  class_constraint="float"  rh_name=""  value="1000" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n41" >
+<LABEL>FreelySoluble</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="160" y="1053"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s38" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximalSolubility"  class_constraint="float"  rh_name=""  value="1000" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s39" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalSolubility"  class_constraint="float"  rh_name=""  value="100" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n42" >
+<LABEL>Soluble</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="34" y="1016"/>
+<SLOTS>
+<SLOT id="1398761717510_s41" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximalSolubility"  class_constraint="float"  rh_name=""  value="100" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s42" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalSolubility"  class_constraint="float"  rh_name=""  value="33" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n46" >
+<LABEL>SparinglySoluble</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="162" y="1014"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s44" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximalSolubility"  class_constraint="float"  rh_name=""  value="33" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s45" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalSolubility"  class_constraint="float"  rh_name=""  value="10" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n48" >
+<LABEL>SlightlySoluble</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="210" y="974"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s47" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximalSolubility"  class_constraint="float"  rh_name=""  value="10" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s48" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalSolubility"  class_constraint="float"  rh_name=""  value="1" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n50" >
+<LABEL>VerySlightlySoluble</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="162" y="906"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s50" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximalSolubility"  class_constraint="float"  rh_name=""  value="1" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s51" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalSolubility"  class_constraint="float"  rh_name=""  value="0.1" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n52" >
+<LABEL>PracticallyInsoluble</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="30" y="906"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s53" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximalSolubility"  class_constraint="float"  rh_name=""  value="0.1" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s54" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalSolubility"  class_constraint="float"  rh_name=""  value="0" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Solubility$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n54" >
+<LABEL>ActiveIngredientsFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="218" y="81"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n55" >
+<LABEL>GlidantFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="602" y="9"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n56" >
+<LABEL>ParticleSize</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="570" y="1040"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s58" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="MaximumParticleSize"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s59" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MinimalParticleSize"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n57" >
+<LABEL>FineParticle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="714" y="1050"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s61" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumParticleSize"  class_constraint="float"  rh_name=""  value="180" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="ParticleSize$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s62" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalParticleSize"  class_constraint="float"  rh_name=""  value="125" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n59" >
+<LABEL>VeryFineParticle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="526" y="1110"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s64" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumParticleSize"  class_constraint="float"  rh_name=""  value="125" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s65" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalParticleSize"  class_constraint="float"  rh_name=""  value="90" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n61" >
+<LABEL>MicronizedParticle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="742" y="1082"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s67" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumParticleSize"  class_constraint="float"  rh_name=""  value="10" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s68" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalParticleSize"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n63" >
+<LABEL>Ultra-micronizedParticle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="600" y="1142"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s70" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumParticleSize"  class_constraint="float"  rh_name=""  value="3" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s71" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalParticleSize"  class_constraint="float"  rh_name=""  value="2" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n65" >
+<LABEL>NanosizeParticle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="780" y="1134"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s73" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumParticleSize"  class_constraint="float"  rh_name=""  value="100" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s74" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalParticleSize"  class_constraint="float"  rh_name=""  value="1" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n67" >
+<LABEL>PharmaceuticleNanoparticle</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="694" y="1014"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398761717510_s76" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumParticleSize"  class_constraint="float"  rh_name=""  value="600" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s77" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalParticleSize"  class_constraint="float"  rh_name=""  value="200" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="ParticleSize$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n69" >
+<LABEL>DisintegrantFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="597" y="46"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n70" >
+<LABEL>BufferFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="905" y="134"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n71" >
+<LABEL>BinderFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="725" y="187"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n73" >
+<LABEL>VehicleFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="294" y="112"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n74" >
+<LABEL>SurfactantFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="322" y="154"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n76" >
+<LABEL>PreservativeFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="257" y="268"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n77" >
+<LABEL>LubricantFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="481" y="32"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n78" >
+<LABEL>DiluentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="389" y="1"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n79" >
+<LABEL>AntioxidantFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="269" y="51"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n94" >
+<LABEL>Gel</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="780" y="668"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n95" >
+<LABEL>FavouringAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="790" y="47"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667346283_n96" >
+<LABEL>ColouringAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="841" y="103"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667701802_n97" >
+<LABEL>WettingAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="401" y="220"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667701802_n98" >
+<LABEL>HygroscopicAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="552" y="222"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398667701802_n101" >
+<LABEL>SweenteningAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="725" y="16"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n99" >
+<LABEL>SizeReduction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1364" y="229"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n100" >
+<LABEL>Mixing</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1186" y="220"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n101" >
+<LABEL>Drying</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1260" y="464"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n102" >
+<LABEL>Compression</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1492" y="282"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n103" >
+<LABEL>Coating</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1513" y="584"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n105" >
+<LABEL>Packaging</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1648" y="390"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n106" >
+<LABEL>Filling</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1637" y="352"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n109" >
+<LABEL>Wetting</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1417" y="520"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n110" >
+<LABEL>SolidAerosol</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="308" y="640"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n111" >
+<LABEL>LiquidAerosol</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="874" y="710"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n112" >
+<LABEL>AromaticWater</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="914" y="680"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n113" >
+<LABEL>Bead</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="580" y="545"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n114" >
+<LABEL>SoftCapsule</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="304" y="528"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1398675628910_n115" >
+<LABEL>HardCapsule</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="320" y="600"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1398675628910_n116" >
+<LABEL>Syrup</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1020" y="694"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n117" >
+<LABEL>ColliodalDispersion</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1010" y="650"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n118" >
+<LABEL>SemiSolidEmulsion&apos;</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="562" y="696"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n119" >
+<LABEL>Foam</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="609" y="760"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n120" >
+<LABEL>Cream</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="674" y="740"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n121" >
+<LABEL>Gum</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="386" y="662"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1398675628910_n122" >
+<LABEL>Lotion</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="544" y="746"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n123" >
+<LABEL>Lozenge</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="520" y="466"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1398675628910_n124" >
+<LABEL>Pellet</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="480" y="500"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n125" >
+<LABEL>Shampoo</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1040" y="580"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n126" >
+<LABEL>Spirit</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1002" y="542"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398675628910_n127" >
+<LABEL>Suppository</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="410" y="685"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1398675628910_n128" >
+<LABEL>Tincture</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1006" y="502"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n160" >
+<LABEL>Stability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1606" y="1120"/>
+<SLOTS>
+<SLOT id="1398760368831_s155" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="DegradationMechanismProperty"  class_constraint="DegradationMechanism"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="DegradationMechanism" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398760368831_s156" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="KineticReaction"  class_constraint="KineticReaction"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="KineticReaction" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n161" >
+<LABEL>DegradationMechanism</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1730" y="1246"/>
+<SLOTS>
+<SLOT id="1398760368831_s158" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="Reactant"  class_constraint="Matter"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Matter" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n162" >
+<LABEL>Hydrolysis</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1660" y="1382"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s160" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="Reactant"  class_constraint="Water"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="DegradationMechanism$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Water" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n164" >
+<LABEL>Oxidation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1782" y="1350"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s162" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="Reactant"  class_constraint="Oxygen"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="DegradationMechanism$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Oxygen" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n165" >
+<LABEL>Photolysis</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1934" y="1350"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s164" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="Reactant"  class_constraint="Light"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="DegradationMechanism$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Light" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n166" >
+<LABEL>Solvolysis</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1686" y="1326"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n168" >
+<LABEL>Hygroscopicity</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2180" y="942"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n169" >
+<LABEL>Slightly hygroscopic</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1960" y="914"/>
+<SLOTS>
+<SLOT id="1398741572232_s170" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="WeightIncrease"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398741572232_s171" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MaximumWeight"  class_constraint="float"  rh_name=""  value="2" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398741572232_s172" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="MinimalWeight"  class_constraint="float"  rh_name=""  value="0.2" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n173" >
+<LABEL>Hygroscopic</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2086" y="1030"/>
+<SLOTS>
+<SLOT id="1398741572232_s174" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="WeightIncrease"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398741572232_s175" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MaximumWeight"  class_constraint="float"  rh_name=""  value="15" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398741572232_s176" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="MinimalWeight"  class_constraint="float"  rh_name=""  value="2" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n177" >
+<LABEL>Deliquecence</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2266" y="860"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398741572232_n178" >
+<LABEL>Very hygroscopic</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2314" y="966"/>
+<SLOTS>
+<SLOT id="1398741572232_s179" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="WeightIncrease"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398741572232_s180" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="WeightIncrease"  class_constraint="float"  rh_name=""  value="&gt;15" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398742135786_n181" >
+<LABEL>PartitionCoefficient</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2546" y="1210"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398742135786_n182" >
+<LABEL>log P</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2600" y="1242"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398742135786_n183" >
+<LABEL>GoodAbsorbtion</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2460" y="1270"/>
+<SLOTS>
+<SLOT id="1398742135786_s184" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="log P"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398742135786_s185" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="Maximum"  class_constraint="float"  rh_name=""  value="6" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398742135786_s186" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="Minimal"  class_constraint="float"  rh_name=""  value="3" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398742135786_n187" >
+<LABEL>LowPermeability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2650" y="1282"/>
+<SLOTS>
+<SLOT id="1398742135786_s188" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="log P"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398742135786_s189" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="Maximum"  class_constraint="float"  rh_name=""  value="&gt;6" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398742135786_s190" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="Minimal"  class_constraint="float"  rh_name=""  value="&lt;3" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398742269315_n191" >
+<LABEL>pKa</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="332" y="1110"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s190" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="MaximumpKaProperty"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398760368831_s191" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MinimalpKa"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n193" >
+<LABEL>KineticReaction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1966" y="1280"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n195" >
+<LABEL>ZeroOrderReactions</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2174" y="1250"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n196" >
+<LABEL>FirstOrderKinetics</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2170" y="1290"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n197" >
+<LABEL>SecondOrderReactions</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2150" y="1330"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n199" >
+<LABEL>CrystallineMaterials</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1030" y="1142"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n200" >
+<LABEL>Polymorphism</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="926" y="1202"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n201" >
+<LABEL>Pseudopolymorphism</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1042" y="1202"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n202" >
+<LABEL>AmorphousMaterials</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1240" y="1140"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398743383153_n203" >
+<LABEL>PhysicalForm</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1140" y="1086"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744303646_n204" >
+<LABEL>AngleOfRepose</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1720" y="1610"/>
+<SLOTS>
+<SLOT id="1398761717510_s196" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="MaximunAngleOfRepose"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398761717510_s197" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MinimalAngleOfRepose"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744857066_n232" >
+<LABEL>CompressibilityIndex</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2242" y="1574"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s217" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="MaximumCompressibilityIndex"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="MaximumCompressibilityIndex" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s218" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MinimalCompressibilityIndex"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744857066_n233" >
+<LABEL>ExcellentPowderFlow</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2134" y="1510"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s220" 
+ type="OR"  label="slot3"  kind="a/o"  num="1"  role="MaximumCompressibilityIndex"  class_constraint="float"  rh_name=""  value="10" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s221" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalCompressibilityIndex"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744857066_n237" >
+<LABEL>GoodPowderFlow</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2062" y="1566"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s223" 
+ type="OR"  label="slot3"  kind="a/o"  num="1"  role="MaximumCompressibilityIndex"  class_constraint="float"  rh_name=""  value="15" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s224" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalCompressibilityIndex"  class_constraint="float"  rh_name=""  value="11" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744857066_n239" >
+<LABEL>Very,VeryPoorPowderFlow</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2302" y="1514"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s226" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumCompressibilityIndex"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s227" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalCompressibilityIndex"  class_constraint="float"  rh_name=""  value="38" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744857066_n241" >
+<LABEL>FairPowderFlow</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2094" y="1626"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s229" 
+ type="OR"  label="slot3"  kind="a/o"  num="1"  role="MaximumCompressibilityIndex"  class_constraint="float"  rh_name=""  value="20" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s230" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalCompressibilityIndex"  class_constraint="float"  rh_name=""  value="16" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744857066_n243" >
+<LABEL>PassablePowderFlow</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2186" y="1680"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s232" 
+ type="OR"  label="slot3"  kind="a/o"  num="1"  role="MaximumCompressibilityIndex"  class_constraint="float"  rh_name=""  value="25" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s233" 
+ type="OR"  label="slot22"  kind="a/o"  num="1"  role="MinimalCompressibilityIndex"  class_constraint="float"  rh_name=""  value="21" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744857066_n245" >
+<LABEL>PoorPowderFlow</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2346" y="1674"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s235" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumCompressibilityIndex"  class_constraint="float"  rh_name=""  value="31" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s236" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalCompressibilityIndex"  class_constraint="float"  rh_name=""  value="26" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398744857066_n247" >
+<LABEL>VeryPoorPowderFlow</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2382" y="1626"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s238" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumCompressibilityIndex"  class_constraint="float"  rh_name=""  value="37" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s239" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalCompressibilityIndex"  class_constraint="float"  rh_name=""  value="32" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="CompressibilityIndex$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398746718609_n279" >
+<LABEL>VeryStrongpKa</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="196" y="1120"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s277" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumpKaProperty"  class_constraint="float"  rh_name=""  value="0" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398760368831_s278" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalpKa"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot2"/>
+<SUB_L label="slot2" def="" role_name="MinimalpKa" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398746718609_n284" >
+<LABEL>Strong</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="234" y="1166"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s280" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumpKaProperty"  class_constraint="float"  rh_name=""  value="4.5" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398760368831_s281" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalpKa"  class_constraint="float"  rh_name=""  value="0" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398746718609_n291" >
+<LABEL>Weak</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="300" y="1188"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s283" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumpKaProperty"  class_constraint="float"  rh_name=""  value="9.5" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398760368831_s284" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalpKa"  class_constraint="float"  rh_name=""  value="4.5" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398746718609_n298" >
+<LABEL>Very weak</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="360" y="1185"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s286" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumpKaProperty"  class_constraint="float"  rh_name=""  value="14" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398760368831_s287" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalpKa"  class_constraint="float"  rh_name=""  value="9.5" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398746718609_n305" >
+<LABEL>Extremely weak</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="404" y="1152"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398760368831_s289" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumpKaProperty"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398760368831_s290" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalpKa"  class_constraint="float"  rh_name=""  value="14" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="pKa$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398760368831_n291" >
+<LABEL>Water</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="140" y="126"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398760368831_n292" >
+<LABEL>Oxygen</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="160" y="166"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398760368831_n293" >
+<LABEL>Matter</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="110" y="82"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398760368831_n294" >
+<LABEL>WaveMatter</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="200" y="120"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398760368831_n295" >
+<LABEL>Light</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="234" y="180"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398760368831_n296" >
+<LABEL>PseudoFirstOrderKinetic</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2054" y="1222"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n261" >
+<LABEL>Flowability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1052" y="1470"/>
+<SLOTS>
+<SLOT id="1398828131646_s262" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="CompressibilityIndex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="CompressibilityIndex" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s263" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="HausnerRatio"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="HausnerRatio" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s264" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="AngleOfRepose"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="AngleOfRepose" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n268" >
+<LABEL>HausnerRatio</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2746" y="1582"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s269" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="MaximumHausnerRatio"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s270" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MinimalHausnerRatio"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n271" >
+<LABEL>ExcellentPowderFlow_HR</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2550" y="1534"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s272" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumHausnerRatio"  class_constraint="float"  rh_name=""  value="1.11" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s273" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalHausnerRatio"  class_constraint="float"  rh_name=""  value="1.00" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n274" >
+<LABEL>GoodPowderFlow_HR</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2530" y="1590"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s275" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumHausnerRatio"  class_constraint="float"  rh_name=""  value="1.18" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s276" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalHausnerRatio"  class_constraint="float"  rh_name=""  value="1.12" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n277" >
+<LABEL>FairPowderFlow_HR</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2562" y="1630"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s278" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumHausnerRatio"  class_constraint="float"  rh_name=""  value="1.25" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s279" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalHausnerRatio"  class_constraint="float"  rh_name=""  value="1.19" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n280" >
+<LABEL>PassiblePowderFlow_HR</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2710" y="1670"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s281" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumHausnerRatio"  class_constraint="float"  rh_name=""  value="1.34" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s282" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalHausnerRatio"  class_constraint="float"  rh_name=""  value="1.26" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n283" >
+<LABEL>PoorPowderFlow_HR</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2860" y="1626"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s284" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumHausnerRatio"  class_constraint="float"  rh_name=""  value="1.45" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s285" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalHausnerRatio"  class_constraint="float"  rh_name=""  value="1.35" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n286" >
+<LABEL>VeryPoorPowderFlow_HR</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2882" y="1560"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s287" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumHausnerRatio"  class_constraint="float"  rh_name=""  value="1.59" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s288" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalHausnerRatio"  class_constraint="float"  rh_name=""  value="1.46" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398828131646_n289" >
+<LABEL>VeryVeryPoorPowderFlow_HR</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2742" y="1514"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398828131646_s290" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="MaximumHausnerRatio"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398828131646_s291" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="MinimalHausnerRatio"  class_constraint="float"  rh_name=""  value="1.60" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="HausnerRatio$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398842403126_n271" >
+<LABEL>ExcellentFlowability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="902" y="1452"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398842403126_s272" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="AngleOfRepose"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="AngleOfRepose" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398842403126_s273" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="HausnerRatio"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="HausnerRatio" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398842403126_s274" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="CompressibilityIndex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot"/>
+<SUB_L label="" def="" role_name="" class_const="CompressibilityIndex" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398842751133_n275" visible="false" >
+<LABEL>GoodFlowability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="912" y="1500"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398846490899_s276" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="AngleOfRepose"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="AngleOfRepose" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s277" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="HausnerRatio"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="HausnerRatio" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s278" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="CompressibilityIndex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot"/>
+<SUB_L label="" def="" role_name="" class_const="CompressibilityIndex" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398842751133_n276" >
+<LABEL>FairFlowability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="934" y="1550"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398846490899_s280" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="AngleOfRepose"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="AngleOfRepose" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s281" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="HausnerRatio"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="HausnerRatio" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s282" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="CompressibilityIndex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot"/>
+<SUB_L label="" def="" role_name="" class_const="CompressibilityIndex" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398843705923_n277" >
+<LABEL>SubstanceProperty</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="354" y="930"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398843705923_n278" >
+<LABEL>PassibleFlowability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1068" y="1622"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398846490899_s285" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="AngleOfRepose"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="AngleOfRepose" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s286" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="HausnerRatio"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="HausnerRatio" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s287" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="CompressibilityIndex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot"/>
+<SUB_L label="" def="" role_name="" class_const="CompressibilityIndex" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398843705923_n279" >
+<LABEL>PoorFlowability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1274" y="1608"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398846490899_s289" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="AngleOfRepose"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="AngleOfRepose" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s290" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="HausnerRatio"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="HausnerRatio" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s291" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="CompressibilityIndex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot"/>
+<SUB_L label="" def="" role_name="" class_const="CompressibilityIndex" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398843705923_n280" >
+<LABEL>Very,VeryPoorFlowability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1120" y="1405"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398846490899_s293" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="AngleOfRepose"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="AngleOfRepose" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s294" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="HausnerRatio"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="HausnerRatio" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s295" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="CompressibilityIndex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot"/>
+<SUB_L label="" def="" role_name="" class_const="CompressibilityIndex" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398843705923_n281" >
+<LABEL>VeryPoorFlowability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1280" y="1464"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398846490899_s297" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="AngleOfRepose"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="AngleOfRepose" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s298" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="HausnerRatio"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="HausnerRatio" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398846490899_s299" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="FlowAbility"  class_constraint="CompressibilityIndex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Flowability$slot"/>
+<SUB_L label="" def="" role_name="" class_const="CompressibilityIndex" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398846490899_n302" >
+<LABEL>ChelatingAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="513" y="277"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398846490899_n303" >
+<LABEL>pHAdjustmentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="382" y="267"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398846490899_n304" >
+<LABEL>SolventFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="884" y="190"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398846490899_n305" >
+<LABEL>IsotonicAdjustmentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="733" y="255"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398910962107_n303" >
+<LABEL>ExcellentPowderFlow_2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1706" y="1514"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n303" >
+<LABEL>AntiChelatingAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="427" y="306"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n305" >
+<LABEL>CoatingAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="267" y="305"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n306" >
+<LABEL>QualityControl</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1882" y="114"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n308" >
+<LABEL>PlasticizerFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="822" y="77"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n309" >
+<LABEL>ViscosityIncreasingAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="681" y="327"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n310" >
+<LABEL>WeightVariation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2324" y="82"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n311" >
+<LABEL>Hardness</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2104" y="1"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n312" >
+<LABEL>DisintegrationTime</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2186" y="9"/>
+<SLOTS>
+<SLOT id="1399019353858_s322" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="disintegrationTimeProperty"  class_constraint="time"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="time" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n313" >
+<LABEL>Friability</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2208" y="65"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1399019353858_s324" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="friabilityProperty"  class_constraint="float"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n314" >
+<LABEL>Thickness</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2325" y="302"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n315" >
+<LABEL>DissolutionTest</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2345" y="120"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n316" >
+<LABEL>ParticleSizeReduction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2086" y="354"/>
+<SLOTS>
+<SLOT id="1398913525160_s317" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="ParticleSizeReduction"  class_constraint="Grinding"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Grinding" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398913525160_s318" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="ParticleSizeReduction"  class_constraint="PulverizationByIntervention"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="PulverizationByIntervention" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398913525160_s319" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="ParticleSizeReduction"  class_constraint="Levigating"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Levigating" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398913525160_s320" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="ParticleSizeReduction"  class_constraint="Seiving"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Seiving" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398913525160_s321" 
+ type="NW"  label="slot5"  kind="p/o"  num="1"  role="ParticleSizeReduction"  class_constraint="Spraying"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Spraying" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398913525160_s322" 
+ type="NW"  label="slot6"  kind="p/o"  num="1"  role="ParticleSizeReduction"  class_constraint="Shearing"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Shearing" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s324" 
+ type="NW"  label="slot7"  kind="p/o"  num="1"  role="ParticleSizeReduction"  class_constraint="HomogeniationMethod"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="HomogeniationMethod" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n323" >
+<LABEL>Grinding</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2388" y="380"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n324" >
+<LABEL>WetGrinding</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2498" y="325"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n325" >
+<LABEL>DryGrinding</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2488" y="374"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n326" >
+<LABEL>TonicityAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="322" y="348"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n328" >
+<LABEL>AffervescentBaseFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="383" y="382"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398913525160_n329" >
+<LABEL>LightProtectingAgentFunction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="714" y="366"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n333" >
+<LABEL>ClarityTest</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1874" y="318"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n334" >
+<LABEL>PharmaceuticalProduction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="245" y="1332"/>
+<SLOTS>
+<SLOT id="1398925071993_s335" 
+ type="NW"  label="slot"  kind="p/o"  num="0.."  role="QualityControlProperty"  class_constraint="QualityControl"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="QualityControl" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s336" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="ProcessProperty"  class_constraint="Process"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Process" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s337" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="FormulationProperty"  class_constraint="Formulation"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Formulation" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s338" 
+ type="NW"  label="slot4"  kind="p/o"  num="0.."  role="ManufacturingProblemProperty"  class_constraint="ManufacturingProblem"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ManufacturingProblem" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n339" >
+<LABEL>Formulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="620" y="2208"/>
+<SLOTS>
+<SLOT id="1398925071993_s340" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="APIProperty"  class_constraint="Substance"  rh_name="API"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399019353858_s351" 
+ type="NW"  label="slot2"  kind="p/o"  num="0.."  role="PreservativeFunction"  class_constraint="Substance"  rh_name="Preservative"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n341" >
+<LABEL>ManufacturingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="448" y="1789"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n342" >
+<LABEL>TabletProduction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="34" y="1510"/>
+<SLOTS>
+<SLOT id="1398925071993_s343" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="ProcessProperty"  class_constraint="TabletProcess"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="PharmaceuticalProduction$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="TabletProcess" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s344" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="FormulationProperty"  class_constraint="TabletFormulation"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="PharmaceuticalProduction$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="TabletFormulation" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n345" >
+<LABEL>AfferescentTablet</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="380" y="460"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n346" >
+<LABEL>TabletProcess</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1260" y="740"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398934689636_s351" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="UnitOperationProperty"  class_constraint="Mixing"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Mixing" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398934689636_s352" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="UnitOperationProperty"  class_constraint="Compression"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="Process$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Compression" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n349" >
+<LABEL>TabletDirectCompression</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1060" y="789"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n350" >
+<LABEL>TabletGranulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1256" y="784"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n351" >
+<LABEL>WetGranulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1176" y="844"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n352" >
+<LABEL>DryGranulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1310" y="845"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1398934689636_s357" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="UnitOperationProperty"  class_constraint="Compression"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Compression" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n353" >
+<LABEL>TabletFormulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="45" y="2328"/>
+<SLOTS>
+<SLOT id="1398925071993_s354" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="DiluentFunction"  class_constraint="Substance"  rh_name="Diluent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s355" 
+ type="NW"  label="slot2"  kind="p/o"  num="0.."  role="DisintegrantFunction"  class_constraint="Substance"  rh_name="Disintegrant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s356" 
+ type="NW"  label="slot3"  kind="p/o"  num="0.."  role="LubricantFunction"  class_constraint="Substance"  rh_name="Lubricant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s357" 
+ type="NW"  label="slot4"  kind="p/o"  num="0.."  role="BinderFunction"  class_constraint="Substance"  rh_name="Binder"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s358" 
+ type="NW"  label="slot5"  kind="p/o"  num="0.."  role="GlidantFunction"  class_constraint="Substance"  rh_name="Glidant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s359" 
+ type="NW"  label="slot6"  kind="p/o"  num="0.."  role="AntioxidantFunction"  class_constraint="Substance"  rh_name="Antioxidant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s360" 
+ type="NW"  label="slot7"  kind="p/o"  num="0.."  role="SolubilizerFunction"  class_constraint="Substance"  rh_name="Solubilizer"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s361" 
+ type="NW"  label="slot8"  kind="p/o"  num="0.."  role="DissolutionRetardantFunction"  class_constraint="Substance"  rh_name="DissolutionRetardant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s362" 
+ type="NW"  label="slot9"  kind="p/o"  num="0.."  role="AntiadherantFunction"  class_constraint="Substance"  rh_name="Antiadherant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s363" 
+ type="NW"  label="slot10"  kind="p/o"  num="0.."  role="WettingAgentProperty"  class_constraint="Substance"  rh_name="WettingAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s364" 
+ type="NW"  label="slot11"  kind="p/o"  num="0.."  role="ColoringAgentProperty"  class_constraint="Substance"  rh_name="ColoringAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s366" 
+ type="NW"  label="slot13"  kind="p/o"  num="0.."  role="FlavoringAgentProperty"  class_constraint="Substance"  rh_name="FlavoringAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s367" 
+ type="NW"  label="slot14"  kind="p/o"  num="0.."  role="GranulatingAgentProperty"  class_constraint="Substance"  rh_name="GranulatingAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s368" 
+ type="NW"  label="slot15"  kind="p/o"  num="0.."  role="AdherantFunction"  class_constraint="Substance"  rh_name="Adherant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398925071993_s369" 
+ type="NW"  label="slot16"  kind="p/o"  num="0.."  role="BufferingFunction"  class_constraint="Substance"  rh_name="Buffering"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398927200185_s370" 
+ type="NW"  label="slot17"  kind="p/o"  num="0.."  role="SorbentFunction"  class_constraint="Substance"  rh_name="Sorbent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398927200185_s371" 
+ type="NW"  label="slot18"  kind="p/o"  num="0.."  role="ScarvengerFunction"  class_constraint="Substance"  rh_name="Scarvenger"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399361716539_s383" 
+ type="NW"  label="slot12"  kind="p/o"  num="0.."  role="CoatingAgentFunction"  class_constraint="Substance"  rh_name="CoatingAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n371" >
+<LABEL>Size</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2294" y="256"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398925071993_n372" >
+<LABEL>Shape</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2374" y="256"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1398925071993_n373" >
+<LABEL>PhysicalProperty</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2348" y="220"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398926639013_n374" >
+<LABEL>SolutionProcess</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1528" y="842"/>
+<SLOTS>
+<SLOT id="1399002668061_s386" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="UnitOperationProperty"  class_constraint="Mixing"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Mixing" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398926639013_n377" >
+<LABEL>CompressionProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="584" y="1700"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398926639013_n378" >
+<LABEL>FlowabilityProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1644"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398926639013_n379" >
+<LABEL>StabilityTest</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1698" y="161"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398926639013_n380" >
+<LABEL>OxidizedProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="460" y="1664"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398926937222_n381" >
+<LABEL>UniformityOfDosageUnit</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2344" y="160"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398926937222_n382" >
+<LABEL>Precipitation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1759" y="204"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398927200185_n388" >
+<LABEL>StickingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="510" y="1996"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398927200185_n389" >
+<LABEL>PickingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="376" y="2030"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n394" >
+<LABEL>BindingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="392" y="2104"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n395" >
+<LABEL>FilmingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="537" y="2052"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n396" >
+<LABEL>CappingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="362" y="1994"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n397" >
+<LABEL>LaminatingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="646" y="2056"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n398" >
+<LABEL>ChippingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="1977"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n399" >
+<LABEL>CrackingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="362" y="2068"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n400" >
+<LABEL>DoubleFeedProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="764" y="2012"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n401" >
+<LABEL>DrugMigrationProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="565" y="2100"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n402" >
+<LABEL>DyeMigrationProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="609" y="2006"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n403" >
+<LABEL>WeightVariationProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="712" y="1936"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n404" >
+<LABEL>DisintregationProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="866" y="1976"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n405" >
+<LABEL>HardnessProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="822" y="1909"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n407" >
+<LABEL>Organileptic</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1776" y="244"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n408" >
+<LABEL>UniformityOfContent</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2342" y="192"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n409" >
+<LABEL>DrugReleaseTesting</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1800" y="282"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1398934689636_n410" >
+<LABEL>ContainerPermeationTest</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1945" y="264"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n417" >
+<LABEL>pHMeasurment</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1953" y="309"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n418" >
+<LABEL>FreezeDrying</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1169" y="494"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n419" >
+<LABEL>HeatDrying</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1292" y="506"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n420" >
+<LABEL>DirectCompression</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1544" y="242"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n421" >
+<LABEL>Granulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1606" y="296"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n422" >
+<LABEL>FilmCoating</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1692" y="452"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n423" >
+<LABEL>SugarCoating</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1740" y="482"/>
+<SLOTS>
+<SLOT id="1399432773618_s404" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="CoatingMethod"  class_constraint="string"  rh_name="SealingOrProtectiveCoat"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399432773618_s405" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="CoatingMethod"  class_constraint="string"  rh_name="Subcoating"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399432773618_s406" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="CoatingMethod"  class_constraint="string"  rh_name="Grossing"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399432773618_s407" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="CoatingMethod"  class_constraint="string"  rh_name="ColorCoating"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399432773618_s408" 
+ type="NW"  label="slot5"  kind="p/o"  num="1"  role="CoatingMethod"  class_constraint="string"  rh_name="Polishing"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n424" >
+<LABEL>CoatingProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="812" y="1766"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n425" >
+<LABEL>Picking</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="812" y="1543"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n426" >
+<LABEL>OrangePeel(Roughness)</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="836" y="1655"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n427" >
+<LABEL>Chipping</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="990" y="1676"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n428" >
+<LABEL>FilmCracking</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1020" y="1711"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399000264156_n429" >
+<LABEL>FilmPeeling</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="762" y="1619"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399001908619_n435" >
+<LABEL>SolutionProduction</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="522" y="1292"/>
+<SLOTS>
+<SLOT id="1399001908619_s436" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="ProcessProperty"  class_constraint="SolutionProcess"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="PharmaceuticalProduction$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="SolutionProcess" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399001908619_s437" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="FormulationProperty"  class_constraint="SolutionFormulation"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="PharmaceuticalProduction$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="SolutionFormulation" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399001908619_n438" >
+<LABEL>SolutionFormulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="592" y="2460"/>
+<SLOTS>
+<SLOT id="1399001908619_s439" 
+ type="NW"  label="slot"  kind="p/o"  num="0.."  role="VehicleFunction"  class_constraint="Substance"  rh_name="Vehicle"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399001908619_s441" 
+ type="NW"  label="slot3"  kind="p/o"  num="0.."  role="ColoringAgentProperty"  class_constraint="Substance"  rh_name="ColoringAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399001908619_s442" 
+ type="NW"  label="slot4"  kind="p/o"  num="0.."  role="FlavoringAgentProperty"  class_constraint="Substance"  rh_name="FlavoringAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399001908619_s443" 
+ type="NW"  label="slot5"  kind="p/o"  num="0.."  role="SurfactantFunction"  class_constraint="Substance"  rh_name="Surfactant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399002668061_s446" 
+ type="NW"  label="slot6"  kind="p/o"  num="0.."  role="AntioxidantFunction"  class_constraint="Substance"  rh_name="Antioxidant"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399002668061_s447" 
+ type="NW"  label="slot7"  kind="p/o"  num="0.."  role="BufferingFunction"  class_constraint="Substance"  rh_name="Buffering"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399002668061_s449" 
+ type="NW"  label="slot9"  kind="p/o"  num="0.."  role="ViscosityInducingAgentProperty"  class_constraint="Substance"  rh_name="ViscosityInducingAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot9" def="" role_name="Property" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399011573505_s450" 
+ type="NW"  label="slot10"  kind="p/o"  num="0.."  role="SolubilizerFunction"  class_constraint="Substance"  rh_name="Solubilizer"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399019353858_s454" 
+ type="NW"  label="slot8"  kind="p/o"  num="1.."  role="SolventFunction"  class_constraint="Substance"  rh_name="Solvent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399011573505_n458" >
+<LABEL>SolutionProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="270" y="1768"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399011573505_n459" >
+<LABEL>Caking</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="260" y="1696"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399011573505_n460" >
+<LABEL>Crystallization</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="166" y="1732"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399019353858_n464" >
+<LABEL>ColorDispersion</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="116" y="1772"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399019353858_n465" >
+<LABEL>PrecipitationProblem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="196" y="1856"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399019353858_n466" >
+<LABEL>SyrupFormulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="354" y="2385"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1399019353858_s467" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="SweeteningAgentProperty"  class_constraint="Substance"  rh_name="SweeteningAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399347452443_s467" 
+ type="NW"  label="slot2"  kind="p/o"  num="0.."  role="ThickeningAgentProperty"  class_constraint="Substance"  rh_name="ThickeningAgent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399359564329_s466" 
+ type="NW"  label="slot3"  kind="p/o"  num="1.."  role="CosolventPropperty"  class_constraint="Substance"  rh_name="Cosolvent"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Substance" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399359564329_n487" >
+<LABEL>SolidFormulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="312" y="2232"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399359564329_n488" >
+<LABEL>LiquidFormulation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="612" y="2349"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399361716539_n490" >
+<LABEL>PoorlyWaterSolubleDrug</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="60" y="1816"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399366551517_n476" >
+<LABEL>Method</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2129" y="704"/>
+</CONCEPT>
+<CONCEPT id="1399434654137_n425" >
+<LABEL>Delication</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1044" y="1752"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399434654137_n426" >
+<LABEL>Dusting</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1062" y="1795"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399434654137_n427" >
+<LABEL>Sticking</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1087" y="1833"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399434751345_n428" >
+<LABEL>RoughTablet</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1100" y="1883"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399434751345_n429" >
+<LABEL>ColorMigration</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1082" y="1926"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399434751345_n430" >
+<LABEL>ColorSpecking</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="981" y="1907"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399437176499_n431" >
+<LABEL>Microscopic</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1430" y="1941"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1399437176499_s432" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="MinimumParticleSize"  class_constraint="float"  rh_name=""  value="1" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1399437176499_s433" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="MaximumParticleSize"  class_constraint="float"  rh_name=""  value="3000" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="float" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399437176499_n434" >
+<LABEL>LightMicroscopy</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1497" y="1801"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399437176499_n435" >
+<LABEL>HotStageMicroscopy</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1613" y="1830"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399437176499_n436" >
+<LABEL>ElectronMicroscopy</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1685" y="1873"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399437176499_n437" >
+<LABEL>AtomicForceMicroscopy</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1698" y="1918"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399438348013_n438" >
+<LABEL>Density</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1330" y="2138"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399438348013_n439" >
+<LABEL>BulkDensity</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1468" y="2085"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399438348013_n440" >
+<LABEL>TappedDensity</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1535" y="2139"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1399438348013_n441" >
+<LABEL>TrueDensity</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1569" y="2189"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<ISA id="1398659815361_isa18" parent="PharmaceuticalDosageForm" child="SolidDosageForm" />
+<ISA id="1398659815361_isa19" parent="PharmaceuticalDosageForm" child="SemiSolidDasageForm" />
+<ISA id="1398659815361_isa20" parent="PharmaceuticalDosageForm" child="LiquidDosageForm" />
+<ISA id="1398659815361_isa21" parent="SolidDosageForm" child="Tablet" />
+<ISA id="1398659815361_isa23" parent="SolidDosageForm" child="Powder" />
+<ISA id="1398659815361_isa24" parent="SolidDosageForm" child="Granule" />
+<ISA id="1398659815361_isa25" parent="SolidDosageForm" child="Bolus" />
+<ISA id="1398659815361_isa26" parent="LiquidDosageForm" child="Solution" />
+<ISA id="1398659815361_isa27" parent="LiquidDosageForm" child="Elixir" />
+<ISA id="1398659815361_isa28" parent="LiquidDosageForm" child="Suspension" />
+<ISA id="1398659815361_isa29" parent="LiquidDosageForm" child="LiquidEmulsion" />
+<ISA id="1398664763920_isa52" parent="SemiSolidDasageForm" child="Ointment" />
+<ISA id="1398664763920_isa60" parent="SemiSolidDasageForm" child="Paste" />
+<ISA id="1398667346283_isa119" parent="Solubility" child="VerySoluble" />
+<ISA id="1398667346283_isa120" parent="Solubility" child="FreelySoluble" />
+<ISA id="1398667346283_isa121" parent="Solubility" child="Soluble" />
+<ISA id="1398667346283_isa125" parent="Solubility" child="SparinglySoluble" />
+<ISA id="1398667346283_isa127" parent="Solubility" child="SlightlySoluble" />
+<ISA id="1398667346283_isa129" parent="Solubility" child="VerySlightlySoluble" />
+<ISA id="1398667346283_isa131" parent="Solubility" child="PracticallyInsoluble" />
+<ISA id="1398667346283_isa133" parent="CompoundFunction" child="ActiveIngredientsFunction" />
+<ISA id="1398667346283_isa134" parent="CompoundFunction" child="GlidantFunction" />
+<ISA id="1398667346283_isa135" parent="ParticleSize" child="FineParticle" />
+<ISA id="1398667346283_isa137" parent="ParticleSize" child="VeryFineParticle" />
+<ISA id="1398667346283_isa139" parent="ParticleSize" child="MicronizedParticle" />
+<ISA id="1398667346283_isa141" parent="ParticleSize" child="Ultra-micronizedParticle" />
+<ISA id="1398667346283_isa143" parent="ParticleSize" child="NanosizeParticle" />
+<ISA id="1398667346283_isa145" parent="ParticleSize" child="PharmaceuticleNanoparticle" />
+<ISA id="1398667346283_isa147" parent="CompoundFunction" child="DisintegrantFunction" />
+<ISA id="1398667346283_isa148" parent="CompoundFunction" child="BufferFunction" />
+<ISA id="1398667346283_isa149" parent="CompoundFunction" child="BinderFunction" />
+<ISA id="1398667346283_isa151" parent="CompoundFunction" child="VehicleFunction" />
+<ISA id="1398667346283_isa152" parent="CompoundFunction" child="SurfactantFunction" />
+<ISA id="1398667346283_isa154" parent="CompoundFunction" child="PreservativeFunction" />
+<ISA id="1398667346283_isa155" parent="CompoundFunction" child="LubricantFunction" />
+<ISA id="1398667346283_isa156" parent="CompoundFunction" child="DiluentFunction" />
+<ISA id="1398667346283_isa157" parent="CompoundFunction" child="AntioxidantFunction" />
+<ISA id="1398667346283_isa161" parent="SemiSolidDasageForm" child="Gel" />
+<ISA id="1398667346283_isa162" parent="CompoundFunction" child="FavouringAgentFunction" />
+<ISA id="1398667346283_isa163" parent="CompoundFunction" child="ColouringAgentFunction" />
+<ISA id="1398667701802_isa169" parent="CompoundFunction" child="WettingAgentFunction" />
+<ISA id="1398667701802_isa170" parent="CompoundFunction" child="HygroscopicAgentFunction" />
+<ISA id="1398667701802_isa173" parent="CompoundFunction" child="SweenteningAgentFunction" />
+<ISA id="1398675628910_isa194" parent="UnitOperation" child="SizeReduction" />
+<ISA id="1398675628910_isa195" parent="UnitOperation" child="Mixing" />
+<ISA id="1398675628910_isa196" parent="UnitOperation" child="Drying" />
+<ISA id="1398675628910_isa197" parent="UnitOperation" child="Compression" />
+<ISA id="1398675628910_isa198" parent="UnitOperation" child="Coating" />
+<ISA id="1398675628910_isa200" parent="UnitOperation" child="Packaging" />
+<ISA id="1398675628910_isa201" parent="UnitOperation" child="Filling" />
+<ISA id="1398675628910_isa204" parent="UnitOperation" child="Wetting" />
+<ISA id="1398675628910_isa205" parent="SolidDosageForm" child="SolidAerosol" />
+<ISA id="1398675628910_isa206" parent="LiquidDosageForm" child="LiquidAerosol" />
+<ISA id="1398675628910_isa207" parent="LiquidDosageForm" child="AromaticWater" />
+<ISA id="1398675628910_isa208" parent="SolidDosageForm" child="Bead" />
+<ISA id="1398675628910_isa211" parent="LiquidDosageForm" child="Syrup" />
+<ISA id="1398675628910_isa212" parent="LiquidDosageForm" child="ColliodalDispersion" />
+<ISA id="1398675628910_isa213" parent="SemiSolidDasageForm" child="SemiSolidEmulsion&apos;" />
+<ISA id="1398675628910_isa214" parent="SemiSolidEmulsion&apos;" child="Foam" />
+<ISA id="1398675628910_isa215" parent="SemiSolidEmulsion&apos;" child="Cream" />
+<ISA id="1398675628910_isa217" parent="SemiSolidEmulsion&apos;" child="Lotion" />
+<ISA id="1398675628910_isa219" parent="SolidDosageForm" child="Pellet" />
+<ISA id="1398675628910_isa220" parent="LiquidDosageForm" child="Shampoo" />
+<ISA id="1398675628910_isa221" parent="LiquidDosageForm" child="Spirit" />
+<ISA id="1398675628910_isa223" parent="LiquidDosageForm" child="Tincture" />
+<ISA id="1398741572232_isa268" parent="DegradationMechanism" child="Oxidation" />
+<ISA id="1398741572232_isa269" parent="DegradationMechanism" child="Photolysis" />
+<ISA id="1398741572232_isa270" parent="DegradationMechanism" child="Solvolysis" />
+<ISA id="1398741572232_isa271" parent="Hygroscopicity" child="Slightly hygroscopic" />
+<ISA id="1398741572232_isa272" parent="Hygroscopicity" child="Hygroscopic" />
+<ISA id="1398741572232_isa273" parent="Hygroscopicity" child="Deliquecence" />
+<ISA id="1398741572232_isa274" parent="Hygroscopicity" child="Very hygroscopic" />
+<ISA id="1398742135786_isa285" parent="PartitionCoefficient" child="log P" />
+<ISA id="1398742135786_isa286" parent="log P" child="GoodAbsorbtion" />
+<ISA id="1398742135786_isa287" parent="log P" child="LowPermeability" />
+<ISA id="1398743383153_isa303" parent="KineticReaction" child="ZeroOrderReactions" />
+<ISA id="1398743383153_isa304" parent="KineticReaction" child="FirstOrderKinetics" />
+<ISA id="1398743383153_isa305" parent="KineticReaction" child="SecondOrderReactions" />
+<ISA id="1398743383153_isa307" parent="CrystallineMaterials" child="Polymorphism" />
+<ISA id="1398743383153_isa308" parent="CrystallineMaterials" child="Pseudopolymorphism" />
+<ISA id="1398743383153_isa309" parent="PhysicalForm" child="CrystallineMaterials" />
+<ISA id="1398743383153_isa310" parent="PhysicalForm" child="AmorphousMaterials" />
+<ISA id="1398744857066_isa363" parent="CompressibilityIndex" child="ExcellentPowderFlow" />
+<ISA id="1398744857066_isa364" parent="CompressibilityIndex" child="GoodPowderFlow" />
+<ISA id="1398744857066_isa365" parent="CompressibilityIndex" child="Very,VeryPoorPowderFlow" />
+<ISA id="1398744857066_isa366" parent="CompressibilityIndex" child="FairPowderFlow" />
+<ISA id="1398744857066_isa367" parent="CompressibilityIndex" child="PassablePowderFlow" />
+<ISA id="1398744857066_isa368" parent="CompressibilityIndex" child="PoorPowderFlow" />
+<ISA id="1398744857066_isa369" parent="CompressibilityIndex" child="VeryPoorPowderFlow" />
+<ISA id="1398746718609_isa431" parent="pKa" child="VeryStrongpKa" />
+<ISA id="1398746718609_isa432" parent="pKa" child="Strong" />
+<ISA id="1398746718609_isa433" parent="pKa" child="Weak" />
+<ISA id="1398746718609_isa434" parent="pKa" child="Very weak" />
+<ISA id="1398746718609_isa435" parent="pKa" child="Extremely weak" />
+<ISA id="1398760368831_isa415" parent="Solvolysis" child="Hydrolysis" />
+<ISA id="1398760368831_isa416" parent="Substance" child="Water" />
+<ISA id="1398760368831_isa417" parent="Substance" child="Oxygen" />
+<ISA id="1398760368831_isa418" parent="Matter" child="WaveMatter" />
+<ISA id="1398760368831_isa419" parent="Matter" child="Substance" />
+<ISA id="1398760368831_isa420" parent="WaveMatter" child="Light" />
+<ISA id="1398760368831_isa421" parent="KineticReaction" child="PseudoFirstOrderKinetic" />
+<ISA id="1398828131646_isa417" parent="HausnerRatio" child="ExcellentPowderFlow_HR" />
+<ISA id="1398828131646_isa418" parent="HausnerRatio" child="GoodPowderFlow_HR" />
+<ISA id="1398828131646_isa419" parent="HausnerRatio" child="FairPowderFlow_HR" />
+<ISA id="1398828131646_isa420" parent="HausnerRatio" child="PassiblePowderFlow_HR" />
+<ISA id="1398828131646_isa421" parent="HausnerRatio" child="PoorPowderFlow_HR" />
+<ISA id="1398828131646_isa422" parent="HausnerRatio" child="VeryPoorPowderFlow_HR" />
+<ISA id="1398828131646_isa423" parent="HausnerRatio" child="VeryVeryPoorPowderFlow_HR" />
+<ISA id="1398842403126_isa400" parent="Flowability" child="ExcellentFlowability" />
+<ISA id="1398842751133_isa403" parent="Flowability" child="GoodFlowability" />
+<ISA id="1398842751133_isa404" parent="Flowability" child="FairFlowability" />
+<ISA id="1398843705923_isa410" parent="SubstanceProperty" child="Solubility" />
+<ISA id="1398843705923_isa411" parent="SubstanceProperty" child="ParticleSize" />
+<ISA id="1398843705923_isa412" parent="SubstanceProperty" child="pKa" />
+<ISA id="1398843705923_isa413" parent="Flowability" child="PassibleFlowability" />
+<ISA id="1398843705923_isa414" parent="Flowability" child="PoorFlowability" />
+<ISA id="1398843705923_isa415" parent="Flowability" child="Very,VeryPoorFlowability" />
+<ISA id="1398843705923_isa416" parent="Flowability" child="VeryPoorFlowability" />
+<ISA id="1398846490899_isa443" parent="CompoundFunction" child="ChelatingAgentFunction" />
+<ISA id="1398846490899_isa444" parent="CompoundFunction" child="pHAdjustmentFunction" />
+<ISA id="1398846490899_isa445" parent="CompoundFunction" child="SolventFunction" />
+<ISA id="1398846490899_isa446" parent="CompoundFunction" child="IsotonicAdjustmentFunction" />
+<ISA id="1398910962107_isa446" parent="AngleOfRepose" child="ExcellentPowderFlow_2" />
+<ISA id="1398913525160_isa486" parent="CompoundFunction" child="AntiChelatingAgentFunction" />
+<ISA id="1398913525160_isa488" parent="CompoundFunction" child="CoatingAgentFunction" />
+<ISA id="1398913525160_isa490" parent="CompoundFunction" child="PlasticizerFunction" />
+<ISA id="1398913525160_isa491" parent="CompoundFunction" child="ViscosityIncreasingAgentFunction" />
+<ISA id="1398913525160_isa492" parent="QualityControl" child="WeightVariation" />
+<ISA id="1398913525160_isa493" parent="QualityControl" child="Hardness" />
+<ISA id="1398913525160_isa494" parent="QualityControl" child="DisintegrationTime" />
+<ISA id="1398913525160_isa495" parent="QualityControl" child="Friability" />
+<ISA id="1398913525160_isa496" parent="QualityControl" child="Thickness" />
+<ISA id="1398913525160_isa497" parent="QualityControl" child="DissolutionTest" />
+<ISA id="1398913525160_isa498" parent="Grinding" child="WetGrinding" />
+<ISA id="1398913525160_isa499" parent="Grinding" child="DryGrinding" />
+<ISA id="1398913525160_isa500" parent="CompoundFunction" child="TonicityAgentFunction" />
+<ISA id="1398913525160_isa502" parent="CompoundFunction" child="AffervescentBaseFunction" />
+<ISA id="1398913525160_isa503" parent="CompoundFunction" child="LightProtectingAgentFunction" />
+<ISA id="1398925071993_isa534" parent="QualityControl" child="ClarityTest" />
+<ISA id="1398925071993_isa535" parent="PharmaceuticalProduction" child="TabletProduction" />
+<ISA id="1398925071993_isa536" parent="Tablet" child="AfferescentTablet" />
+<ISA id="1398925071993_isa537" parent="Process" child="TabletProcess" />
+<ISA id="1398925071993_isa538" parent="TabletProcess" child="TabletDirectCompression" />
+<ISA id="1398925071993_isa539" parent="TabletProcess" child="TabletGranulation" />
+<ISA id="1398925071993_isa540" parent="TabletGranulation" child="WetGranulation" />
+<ISA id="1398925071993_isa541" parent="TabletGranulation" child="DryGranulation" />
+<ISA id="1398925071993_isa544" parent="QualityControl" child="Size" />
+<ISA id="1398925071993_isa545" parent="QualityControl" child="Shape" />
+<ISA id="1398925071993_isa546" parent="QualityControl" child="PhysicalProperty" />
+<ISA id="1398926639013_isa554" parent="Process" child="SolutionProcess" />
+<ISA id="1398926639013_isa557" parent="ManufacturingProblem" child="CompressionProblem" />
+<ISA id="1398926639013_isa558" parent="ManufacturingProblem" child="FlowabilityProblem" />
+<ISA id="1398926639013_isa559" parent="QualityControl" child="StabilityTest" />
+<ISA id="1398926639013_isa560" parent="ManufacturingProblem" child="OxidizedProblem" />
+<ISA id="1398926937222_isa563" parent="QualityControl" child="UniformityOfDosageUnit" />
+<ISA id="1398926937222_isa564" parent="QualityControl" child="Precipitation" />
+<ISA id="1398927200185_isa574" parent="ManufacturingProblem" child="StickingProblem" />
+<ISA id="1398927200185_isa575" parent="ManufacturingProblem" child="PickingProblem" />
+<ISA id="1398934689636_isa597" parent="ManufacturingProblem" child="BindingProblem" />
+<ISA id="1398934689636_isa598" parent="ManufacturingProblem" child="FilmingProblem" />
+<ISA id="1398934689636_isa599" parent="ManufacturingProblem" child="CappingProblem" />
+<ISA id="1398934689636_isa600" parent="ManufacturingProblem" child="LaminatingProblem" />
+<ISA id="1398934689636_isa601" parent="ManufacturingProblem" child="ChippingProblem" />
+<ISA id="1398934689636_isa602" parent="ManufacturingProblem" child="CrackingProblem" />
+<ISA id="1398934689636_isa603" parent="ManufacturingProblem" child="DoubleFeedProblem" />
+<ISA id="1398934689636_isa604" parent="ManufacturingProblem" child="DrugMigrationProblem" />
+<ISA id="1398934689636_isa605" parent="ManufacturingProblem" child="DyeMigrationProblem" />
+<ISA id="1398934689636_isa606" parent="ManufacturingProblem" child="WeightVariationProblem" />
+<ISA id="1398934689636_isa607" parent="ManufacturingProblem" child="DisintregationProblem" />
+<ISA id="1398934689636_isa608" parent="ManufacturingProblem" child="HardnessProblem" />
+<ISA id="1398934689636_isa610" parent="QualityControl" child="Organileptic" />
+<ISA id="1398934689636_isa611" parent="QualityControl" child="UniformityOfContent" />
+<ISA id="1398934689636_isa612" parent="QualityControl" child="DrugReleaseTesting" />
+<ISA id="1398934689636_isa613" parent="QualityControl" child="ContainerPermeationTest" />
+<ISA id="1399000264156_isa634" parent="QualityControl" child="pHMeasurment" />
+<ISA id="1399000264156_isa635" parent="Drying" child="FreezeDrying" />
+<ISA id="1399000264156_isa636" parent="Drying" child="HeatDrying" />
+<ISA id="1399000264156_isa637" parent="Compression" child="DirectCompression" />
+<ISA id="1399000264156_isa638" parent="Compression" child="Granulation" />
+<ISA id="1399000264156_isa639" parent="Coating" child="FilmCoating" />
+<ISA id="1399000264156_isa640" parent="Coating" child="SugarCoating" />
+<ISA id="1399000264156_isa641" parent="ManufacturingProblem" child="CoatingProblem" />
+<ISA id="1399000264156_isa642" parent="CoatingProblem" child="Picking" />
+<ISA id="1399000264156_isa643" parent="CoatingProblem" child="OrangePeel(Roughness)" />
+<ISA id="1399000264156_isa644" parent="CoatingProblem" child="Chipping" />
+<ISA id="1399000264156_isa645" parent="CoatingProblem" child="FilmCracking" />
+<ISA id="1399000264156_isa646" parent="CoatingProblem" child="FilmPeeling" />
+<ISA id="1399001908619_isa664" parent="PharmaceuticalProduction" child="SolutionProduction" />
+<ISA id="1399011573505_isa684" parent="ManufacturingProblem" child="SolutionProblem" />
+<ISA id="1399011573505_isa685" parent="SolutionProblem" child="Caking" />
+<ISA id="1399011573505_isa686" parent="SolutionProblem" child="Crystallization" />
+<ISA id="1399019353858_isa709" parent="SolutionProblem" child="ColorDispersion" />
+<ISA id="1399019353858_isa710" parent="SolutionProblem" child="PrecipitationProblem" />
+<ISA id="1399359564329_isa720" parent="Formulation" child="SolidFormulation" />
+<ISA id="1399359564329_isa721" parent="Formulation" child="LiquidFormulation" />
+<ISA id="1399359564329_isa722" parent="LiquidFormulation" child="SyrupFormulation" />
+<ISA id="1399359564329_isa724" parent="LiquidFormulation" child="SolutionFormulation" />
+<ISA id="1399361716539_isa733" parent="SolutionProblem" child="PoorlyWaterSolubleDrug" />
+<ISA id="1399361716539_isa734" parent="SolidFormulation" child="TabletFormulation" />
+<ISA id="1399434654137_isa627" parent="CoatingProblem" child="Delication" />
+<ISA id="1399434654137_isa628" parent="CoatingProblem" child="Dusting" />
+<ISA id="1399434654137_isa629" parent="CoatingProblem" child="Sticking" />
+<ISA id="1399434751345_isa633" parent="CoatingProblem" child="RoughTablet" />
+<ISA id="1399434751345_isa634" parent="CoatingProblem" child="ColorMigration" />
+<ISA id="1399434751345_isa635" parent="CoatingProblem" child="ColorSpecking" />
+<ISA id="1399437176499_isa643" parent="Microscopic" child="LightMicroscopy" />
+<ISA id="1399437176499_isa644" parent="Microscopic" child="HotStageMicroscopy" />
+<ISA id="1399437176499_isa645" parent="Microscopic" child="ElectronMicroscopy" />
+<ISA id="1399437176499_isa646" parent="Microscopic" child="AtomicForceMicroscopy" />
+<ISA id="1399438348013_isa651" parent="Density" child="BulkDensity" />
+<ISA id="1399438348013_isa652" parent="Density" child="TappedDensity" />
+<ISA id="1399438348013_isa653" parent="Density" child="TrueDensity" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="5383" h="4428" />
+<CONCEPT id="1398934689636_n614" >
+<LABEL>precede</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="282" y="46"/>
+<SLOTS>
+<SLOT id="1398934689636_s615" 
+ type="NW"  label="slot"  kind="p/i"  num="1"  role="value"  class_constraint="UnitOperation"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="UnitOperation" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1398934689636_s616" 
+ type="NW"  label="slot2"  kind="p/i"  num="1"  role="value"  class_constraint="UnitOperation"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="UnitOperation" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+</CONCEPT>
+</R_CONCEPTS>
+<OTHER_ONTS>
+<W_DEPENDENCY>
+</W_DEPENDENCY>
+<R_DEPENDENCY>
+</R_DEPENDENCY>
+</OTHER_ONTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.3322834645669" h="841.9181102362205" iw="451.3322834645669" ih="697.9181102362205" ix="72.0" iy="72.0" />
+<PRINTER_SETTINGS orientation="1" printername="HP LaserJet P1505" />
+</PRINTER>
+</OE_FILE>

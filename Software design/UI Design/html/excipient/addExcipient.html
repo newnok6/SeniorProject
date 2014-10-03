@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html ng-app="DrugExpertSystemApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/foundation.css">
+    <script src="../../js/vendor/modernizr.js"></script>
+    <title>Substance property name list</title>
+</head>
+<body>
+<div class="off-canvas-wrap">
+
+    <div class="inner-wrap">
+
+
+         <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="subpropNameList.html">Back</a></h1>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="main-section">
+            <div class="section-inner">
+                <div class="scroll-contrainer">
+                    <form data-abide id="addTabletFormulationForm" action="addFormulation" method="get">
+                        <fieldset>
+                            <legend>Update And Delete Excipient</legend>
+                            <table id="formulationTable">
+                            <label> Substance Name
+                            <input type="text" name="substancequantity" pattern="alpha"
+                                               placeholder="Substance">
+                            </label>
+                                <thead>
+                                <tr>
+                                    <th width="200">Choose the CompoundFunction</th>
+                                    <th width="200">Min Concentration</th>
+                                    <th width="200">Max Concentration</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="tr_clone">
+                                    <td>
+                                        <select name="compoundFunctionId">
+                                            <option value=0>Binder</option>
+                                            <option value=0>Dillugant</option>
+                                            <option value=0>MaxContext</option>
+                                        </select>
+                                    </td>
+
+                                    <td>
+                                        <input type="text" name="substancequantity" pattern="float"
+                                               placeholder="2">
+                                        <small class="error">The Value Property is float Number.</small>
+                                    </td>
+
+                                    <td>
+
+                                        <input type="text" name="substanceintensity" pattern="float"
+                                               placeholder="14.65">
+                                        <small class="error">The Value Property is float Number.</small>
+                                    </td>
+
+
+                                    <td>
+                                        <a href="#" class="medium alert button">Delete</a>
+
+                                    </td>
+
+                                    <td>
+                                        <a class="button">Add more</a>
+                                    </td>
+
+                                </tr>
+
+                                </tbody>
+                            </table>
+                            <div align="center">
+                                <button type="submit">Update</button>
+                                <button type="submit" class="alert">Delete</button>
+                            </div>
+                        </fieldset>
+
+                    </form>
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+<script src= "../../js/vendor/jquery.js"></script>
+<script src="../../js/foundation.min.js"></script>
+<script src="../../js/foundation/foundation.topbar.js"></script>
+<script src="../../js/foundation/foundation.abide.js"></script>
+<script>
+    $(document).foundation();
+
+    $("a.button").click(function () {
+
+
+        $(this).closest('.tr_clone').clone().insertAfter(".tr_clone:last");
+
+    });
+
+</script>
+</body>
+</html>

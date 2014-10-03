@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html ng-app="DrugExpertSystemApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/foundation.css">
+    <script src="../js/vendor/modernizr.js"></script>
+    <title>Admin homepage</title>
+</head>
+<body>
+
+<div class="off-canvas-wrap">
+
+    <div class="inner-wrap">
+
+
+        <nav class="tab-bar">
+
+            <section class="left-small">
+                <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+            </section>
+
+            <section class="middle tab-bar-section">
+                <h1 class="title"><a class="showData" href="#">Substance Property</a></h1>
+            </section>
+
+        </nav>
+
+        <aside class="left-off-canvas-menu">
+            <ul class="off-canvas-list">
+                <li><label>Pharmatical Ontology management</label></li>
+                <li><a href="substanceProperty/subpropMenu.html">Substance Property Mangement</a></li>
+                <li><a href="substance/substanceMenu.html">Substance Management</a></li>
+                <li><a href="#kineticReactionForm">Excipient Mangement</a></li>
+                <li><a class="pka" href="#pkaForm">Tablet Formulation Mangement</a></li>
+            </ul>
+        </aside>
+        <section class="main-section">
+            <div class="section-inner">
+
+                <div id="showAllProperty" class="scroll-contrainer">
+                    <h2>Substance Property</h2>
+
+
+                    <!-- Show the Solubility in the database on the table -->
+                    <p><a name="Show Solubility Data"></a></p>
+
+                    <h3 data-magellan-destination="showSolubility">Solubility</h3>
+                    <div></div>
+                    <table>
+
+                        <thead>
+
+                        <tr>
+                            <th width="200">Solubility Type</th>
+                            <th width="200">Solubility Value</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Fastest</td>
+                            <td>6.5</td>
+                        </tr>
+
+                        <tr>
+                            <td>Slow</td>
+                            <td>5.78</td>
+                        </tr>
+
+                        </tbody>
+
+                    </table>
+
+                     <h3 data-magellan-destination="showSolubility">Solidstate</h3>
+                    <div></div>
+                    <table>
+
+                        <thead>
+
+                        <tr>
+                            <th width="200">Solidstate Type</th>
+                          
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Liqld</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Solid</td>
+                            <td>5.78</td>
+                        </tr>
+
+                        </tbody>
+
+                    </table>
+
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+<script src="../js/vendor/jquery.js"></script>
+<script src="../js/foundation.min.js"></script>
+<script src="../js/foundation/foundation.topbar.js"></script>
+<script src="../js/foundation/foundation.abide.js"></script>
+<script src="../js/foundation/foundation.magellan.js"></script>
+<script>
+$(document).foundation();
+</script>
+
+</body>
+</html>

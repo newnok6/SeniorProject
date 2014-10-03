@@ -1,0 +1,318 @@
+(Ontology Name)
+PharmaceuticalDosageForm.ont
+
+(Wholeness Concept)
+- Any
+  a/o 1 NameProperty : string 
+  - PharmaceuticalProduction
+    p/o 0.. QualityControlProperty : QualityControl 
+    p/o 1 ProcessProperty : Process 
+    p/o 1 FormulationProperty : Formulation 
+    p/o 0.. ManufacturingProblemProperty : ManufacturingProblem 
+    - TabletProduction
+      p/o 1 TabletProcessProeprty : TabletProcess 
+      p/o 1 TabletFormulationProperty : TabletFormulation 
+    - SolutionProduction
+      p/o 1 SolutionProcessProperty : SolutionProcess 
+      p/o 1 SolutionFormulationProperty : SolutionFormulation 
+  - QualityControl
+    - WeightVariation
+      a/o 1 valueProperty : float 
+    - Hardness
+      a/o 1 valueProperty : float 
+    - DisintegrationTime
+      a/o 1 valueProperty : integer 
+    - Friability
+      a/o 1 valueProperty : float 
+    - Thickness
+      a/o 1 valueProperty : float 
+    - DissolutionTest
+      a/o 1 valueProperty : float 
+    - ClarityTest
+      a/o 1 valueProperty : boolean 
+    - PhysicalProperty
+      - OrganolepticProperty
+        a/o 1 valueProperty : string 
+      - SizeProperty
+        a/o 1 valueProperty : float 
+    - StabilityTest
+      a/o 1 valueProperty : boolean 
+    - UniformityOfDosageUnit
+      a/o 1 valueProperty : float 
+    - Precipitation
+      a/o 1 valueProperty : boolean 
+    - UniformityOfContent
+      a/o 1 valueProperty : float 
+    - pHMeasurment
+      a/o 1 valueProperty : float 
+    - DissolutionProfile
+      a/o 1 valueProperty : float 
+  - ManufacturingProblem
+    a/o 1 ValueProperty : boolean 
+    a/o 1 characteristicProperty : string 
+    - CompressionProblem
+    - FlowabilityProblem
+    - OxidizedProblem
+    - CoatingProblem
+      - Picking
+      - OrangePeel
+      - Chipping
+      - FilmCracking
+      - FilmPeeling
+      - Delication
+      - Dusting
+      - Sticking
+      - RoughTablet
+      - ColorMigration
+      - ColorSpecking
+    - SolutionProblem
+      - Caking
+      - Crystallization
+      - ColorDispersion
+      - PrecipitationProblem
+      - PoorlyWaterSolubleDrug
+    - TabletProblem
+      - CappingProblem
+      - PickingProblem
+      - CrackingProblem
+      - DrugMigrationProblem
+      - BindingProblem
+      - StickingProblem
+      - DyeMigrationProblem
+      - DoubleFeedProblem
+      - FilmingProblem
+      - LaminatingProblem
+      - ChippingProblem
+      - WeightVariationProblem
+      - HardnessProblem
+      - DisintregationProblem
+  - Formulation
+    p/o 1.. ActiveIngredientFunction [ActiveIngredient] : Substance 
+    p/o 0.. PreservativeFunction [Preservative] : Substance 
+    p/o 0.. BufferingFunction [Buffering] : Substance 
+    p/o 0.. SurfactantFunction [Surfactant] : Substance 
+    p/o 0.. SolubilizerFunction [Solubilizer] : Substance 
+    p/o 0.. ColoringAgentFunction [ColoringAgent] : Substance 
+    p/o 0.. FlavoringAgentFunction [FlavoringAgent] : Substance 
+    p/o 0.. AntioxidantFunction [Antioxidant] : Substance 
+    - SolidFormulation
+      - TabletFormulation
+        p/o 1.. DiluentFunction [Diluent] : Substance 
+        p/o 0.. DisintegrantFunction [Disintegrant] : Substance 
+        p/o 0.. LubricantFunction [Lubricant] : Substance 
+        p/o 0.. BinderFunction [Binder] : Substance 
+        p/o 0.. GlidantFunction [Glidant] : Substance 
+        p/o 0.. DissolutionRetardantFunction [DissolutionRetardant] : Substance 
+        p/o 0.. AntiAdherantFunction [Antiadherant] : Substance 
+        p/o 0.. WettingAgentFunction [WettingAgent] : Substance 
+        p/o 0.. GranulatingAgentFunction [GranulatingAgent] : Substance 
+        p/o 0.. AdherantFunction [Adherant] : Substance 
+        p/o 0.. SorbentFunction [Sorbent] : Substance 
+        p/o 0.. CoatingAgentFunction [CoatingAgent] : Substance 
+    - LiquidFormulation
+      - SyrupFormulation
+        p/o 1.. SweeteningAgentFunction [SweeteningAgent] : Substance 
+        p/o 0.. ThickeningAgentFunction [ThickeningAgent] : Substance 
+      - SolutionFormulation
+        p/o 0.. VehicleFunction [Vehicle] : Substance 
+        p/o 0.. ViscosityInducingAgentFunction [ViscosityInducingAgent] : Substance 
+        p/o 1.. SolventFunction [Solvent] : Substance 
+  - CompoundFunction
+    a/o 1 maxConcentrationProperty : float 
+    a/o 1 minConcentrationProperty : float 
+    a/o 1 TypeProperty : string 
+    - ActiveIngredientFunction
+    - GlidantFunction
+    - DisintegrantFunction
+    - BufferFunction
+    - BinderFunction
+    - VehicleFunction
+    - SurfactantFunction
+    - PreservativeFunction
+    - LubricantFunction
+    - DiluentFunction
+    - AntioxidantFunction
+    - FavouringAgentFunction
+    - ColouringAgentFunction
+    - WettingAgentFunction
+    - HygroscopicAgentFunction
+    - SweenteningAgentFunction
+    - ChelatingAgentFunction
+    - pHAdjustmentFunction
+    - SolventFunction
+    - IsotonicAdjustmentFunction
+    - AntiChelatingAgentFunction
+    - CoatingAgentFunction
+    - PlasticizerFunction
+    - ViscosityIncreasingAgentFunction
+    - TonicityAgentFunction
+    - AffervescentBaseFunction
+    - LightProtectingAgentFunction
+    - ViscosityInducingAgentFunction
+    - SorbentFunction
+    - SolubilizerFunction
+    - DissolutionRetardantFunction
+    - ThickeningAgentFunction
+    - AdherantFunction
+    - AntiAdherantFunction
+    - BufferingFunction
+    - ColoringAgentFunction
+    - FlavoringAgentFunction
+    - GranulatingAgentFunction
+    - SweeteningAgentFunction
+  - Substance
+    p/o 1 waterSolubilityProperty : Solubility 
+    p/o 0.. StabilityProperty : Stability 
+    p/o 1 DissolutionProperty : pKa 
+    p/o 1 PartitionCoefficientProperty : PartitionCoefficient 
+    p/o 1 PhysicalFormProperty : Solidstate 
+    p/o 1 HygroscopicityProperty : Hygroscopicity 
+    p/o 1 ParticleProperty : ParticleSize 
+    p/o 1 AlcoholSolubilityProperty : Solubility 
+    p/o 1 FlowabilityProperty : Flowability 
+    p/o 1 PowderDensityProperty : Density 
+    p/o 1 SaltProperty : SaltForm 
+    a/o 1 WeightProperty : float 
+    a/o 1 Ionicity : string 
+    - Water
+    - Oxygen
+    - Matter
+      - WaveMatter
+        - Light
+  - DegradationMechanism
+    a/o 1.. DegradationMechanismTypeProperty : string 
+  - KineticReaction
+    a/o 1 KineticReactionTypeProperty : string 
+  - SaltForm
+    p/o 1 MolecularWeightProperty : float 
+    p/o 1 pKaProperty : pKa 
+  - Method
+    - GrindingMethod
+      - DryGrinding
+      - WetGrinding
+    - PulverizationByInterventionMethod
+    - LevigatingMethod
+    - SprayingMethod
+    - HeatingMethod
+      - IndirectHeatingMethod
+      - DirectHeatingMethod
+    - DryingMethod
+      - FreezeDrymethod
+      - HeatDryMethod
+        - StaticHeatDry
+        - DynamicHeatDry
+    - SizeReductionMethod
+      - SeivingMethod
+        a/o 1 NumberOfSeive : integer 
+      - ShearingMethod
+    - GeometricdilutionMethod
+    - MixingMethod
+  - SubstanceProperty
+    - Solubility
+      a/o 1 MaximumValueProperty : float 
+      a/o 1 MinimumValueProperty : float 
+      a/o 1 SolubilityTypeProperty : string 
+      a/o 1 solubilityValueProperty : float 
+    - ParticleSize
+      a/o 1 MaximumParticleSizeValueProperty : float 
+      a/o 1 MinimalParticleSizeValueProperty : float 
+      a/o 1 ParticleSizeTypeProperty : string 
+      a/o 1 ParticleSizeValueProperty : float 
+    - pKa
+      a/o 1 MaximumpKaProperty : float 
+      a/o 1 MinimalpKa : float 
+      a/o 1 pKaTypeProperty : string 
+      a/o 1 pKaValueProperty : float 
+    - Flowability
+      p/o 1 CompressibilityIndexProperty : CompressibilityIndex 
+      p/o 1 HausnerRatioProperty : HausnerRatio 
+      p/o 1 AngleOfReposeProperty : AngleOfRepose 
+      a/o 1 FlowabilityTypeProperty : string 
+    - Stability
+      p/o 1 DegradationMechanismProperty : DegradationMechanism 
+      p/o 1 KineticReaction : KineticReaction 
+    - PartitionCoefficient
+      a/o 1 PartitionCoefficientValueProperty : float 
+      a/o 1 PartitionCoefficientTYpeProperty : string 
+    - Solidstate
+      a/o 1 SolidStateTypeProperty : string 
+    - Hygroscopicity
+      a/o 1 HygroscopicityTypeProperty : string 
+    - Density
+      a/o 1 DensityTypeProperty : string 
+      a/o 1 DensityValueProperty : float 
+  - FlowabilityIndicator
+    a/o 1 MaximumValueProperty : float 
+    a/o 1 MinimumValueProperty : float 
+    - AngleOfRepose
+      a/o 1 AngleOfReposeValueProperty : float 
+    - CompressibilityIndex
+      p/o 1 BulkDensityProperty : Density 
+      p/o 1 TappedDensityProperty : Density 
+      a/o 1 CompressiblityIndexValueProperty : float 
+    - HausnerRatio
+      p/o 1 BulkDensityProperty : Density 
+      p/o 1 TappedDensityProperty : Density 
+      a/o 1 HausnerRatioValueProperty : float 
+  - Process
+    p/o 1.. UnitOperationProperty : UnitOperation 
+    - TabletProcess
+      p/o 1.. MixingUnitOperationProperty : Mixing 
+      a/o 1 ProcessDosageForm : PharmaceuticalDosageForm 
+      a/o 1 TabletProcessTypeProperty : string 
+      p/o 1 CompressUnitOperationProperty : Compression 
+    - SolutionProcess
+      p/o 1.. MixingUnitOperationProperty : WetMixing 
+    - CoatingProcess
+      - FilmCoat
+      - SugarCoat
+  - UnitOperation
+    p/o 1.. SubstanceProperty : Substance 
+    p/o 1 MethodProperty : Method 
+    - SizeReduction
+      a/o 1 SizeReductionMethod : SeivingMethod 
+    - Mixing
+      p/o 1 MethodProperty : MixingMethod 
+      - SolidSolidMixing
+      - SolidLiquidMixing
+        - WetMixing
+      - SolidSemiMixing
+      - SemiLiquidMixing
+      - LiquidLiquidMixing
+    - Drying
+      a/o 1 HeatTemperature : float 
+      a/o 1 MoistureContent : float 
+      p/o 1 MethodProperty : DryingMethod 
+    - Compression
+      a/o 1 WeightProperty : float 
+      a/o 1 HardnessProperty : Hardness 
+    - SubCoat
+    - Grossing
+    - ColorCoat
+    - Polishing
+    - Heating
+      a/o 1 MaxTempValueProperty : float 
+      p/o 1 MethodProperty : HeatingMethod 
+  - PharmaceuticalDosageForm
+    a/o 1 PharmaceuticalDosageFormType : string 
+
+(Relation Concept)
+- precede
+  p/i 1 value : UnitOperation 
+  p/i 1 value : UnitOperation 
+- equal
+  p/i 1 value : number 
+  p/i 1 value : number 
+- sameAs
+  p/i 1 class : Any 
+  p/i 1 class : Any 
+- larger-than
+  p/i 1 larger : Any 
+  p/i 1 smaller : Any 
+- not-equal
+  p/i 1 value : number 
+  p/i 1 value : number 
+- different
+  p/i 1 class : Any 
+  p/i 1 class : Any 
+

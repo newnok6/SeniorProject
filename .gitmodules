@@ -2,3 +2,6 @@
 	path = Senior-Project-Expert-System
 	url = https://github.com/newnok6/Senior-Project-Expert-System.git
 
+[submodule "Senior-Project-Expert-System-Mobile-Part"]
+	path = Senior-Project-Expert-System-Mobile-Part
+	url = https://github.com/newnok6/Senior-Project-Expert-System-Mobile-Part.git
